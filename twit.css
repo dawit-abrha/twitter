@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+    background-color: grey;
+}
+.box-logo{
+    background:white;
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.logo{
+    width: 30px;
+    margin-bottom: 20px;
+}
+.box-logo h2{
+margin-bottom: 20px;
+}
+.box-logo button img{
+    width: 15px;
+    margin-right: 10px;
+}
+.box-logo button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 15px;
+    background: transparent;
+    border: 1px solid black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.box-logo hr{
+    border: 0px;
+    height: 1px;
+    background: #141212;
+    margin: 5px;
+}
+.box-logo span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background:white;
+    font-size: 14px;
+    margin-top: -16px;
+
+}
+.box-logo input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid#999;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 15px 10px;
+}
+::placeholder{
+    font-weight: 500px;
+    color: #333;
+}
+.box-logo form button{
+background: black;
+color: #fff;
+border: 0;
+margin-bottom: 15px;
+}
+.box-logo p{
+    text-decoration: left;
+    font-size: 14px;
+    color: #555;
+    margin: 40px 0 s0px;
+
+}
+.box-logo p a{
+    text-decoration: none;
+    color: #2250d9;
+}
